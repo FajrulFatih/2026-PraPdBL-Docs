@@ -107,4 +107,5 @@ PraPdBL uses configuration files for environment-specific settings.
 TBD
 
 ## Related Documentation
+- API documentation: [api-documentation.md](api-documentation.md)
 - ERD and table relationships: [erd.md](erd.md)
