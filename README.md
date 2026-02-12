@@ -98,10 +98,8 @@ PraPdBL uses configuration files for environment-specific settings.
 ### Mobile (`.env` or config file if used)
 - API base URL for the backend service
 
-## Contributing (Optional)
-1. Create a feature branch from `docs/general-documentation` or the default branch.
-2. Make your changes with clear commit messages.
-3. Open a pull request with a short summary.
+## Contributing
+See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution steps and workflow rules.
 
 ## License
 TBD
@@ -109,3 +107,5 @@ TBD
 ## Related Documentation
 - API documentation: [api-documentation.md](api-documentation.md)
 - ERD and table relationships: [erd.md](erd.md)
+- Repository structure and Git workflow: [git-workflow.md](git-workflow.md)
+- Contribution guide: [CONTRIBUTING.md](CONTRIBUTING.md)
