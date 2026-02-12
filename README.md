@@ -109,3 +109,4 @@ TBD
 ## Related Documentation
 - API documentation: [api-documentation.md](api-documentation.md)
 - ERD and table relationships: [erd.md](erd.md)
+- Repository structure and Git workflow: [git-workflow.md](git-workflow.md)
