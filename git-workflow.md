@@ -20,9 +20,11 @@ Each platform should live in its own repository.
 - `develop`: active development branch
 - `feature/*`: feature or task-specific branches
 - `chore/*`: maintenance or setup tasks (example: `chore/git-workflow-setup`)
+- `docs/*`: documentation-only tasks (example: `docs/git-workflow`)
 
 ### Rules
 - All feature development branches from `develop`.
+- Documentation-only work can branch from `develop` using `docs/*`.
 - Pull requests are required before merging to `develop` or `main`.
 - Protect `main` and `develop` with required reviews and status checks.
 
@@ -54,11 +56,15 @@ Use this format for every commit:
 - `refactor(user): simplify role checks`
 
 ## Standard Workflow
-1. Create a branch from `develop` (example: `feature/booking-validation`).
+1. Create a branch from `develop` (examples: `feature/booking-validation`, `docs/git-workflow`).
 2. Commit changes using Conventional Commits.
 3. Open a PR to `develop` and request review.
-4. Merge to `develop` after checks pass.
-5. Open a PR from `develop` to `main` for releases.
+4. Address review feedback and ensure checks pass.
+5. Merge to `develop`.
+6. Open a PR from `develop` to `main` for releases.
+
+## Contribution Guide
+See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution steps and PR expectations.
 
 ## Notes
 - Consider commit linting and hooks (for example, Husky or lefthook) in the future.
