@@ -106,6 +106,7 @@ TBD
 
 ## Related Documentation
 - API documentation: [api-documentation.md](api-documentation.md)
+- Changelog: [CHANGELOG.md](CHANGELOG.md)
 - ERD and table relationships: [erd.md](erd.md)
 - Repository structure and Git workflow: [git-workflow.md](git-workflow.md)
 - Contribution guide: [CONTRIBUTING.md](CONTRIBUTING.md)
