@@ -18,7 +18,7 @@ The format is based on Keep a Changelog and this project adheres to Semantic Ver
 ### Security
 - N/A.
 
-## [0.1.0] - 2026-02-13
+## [1.0.0] - 2026-02-14
 ### Added
 - Initial backend API with booking, room, and user endpoints.
 - Initial React frontend application scaffold.
